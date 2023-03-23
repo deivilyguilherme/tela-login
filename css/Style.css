@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, rgb(20, 18, 18),rgb(2, 2, 50));
+}
+.login {
+    background-color:rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 75px;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    color: rgb(20, 18, 18);   
+}
+#Login {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#Senha {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(20, 18, 18);
+    border:none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    color:antiquewhite;
+    font-size: 16px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: black;
+}
+h1 {
+    display: flex;
+    border: none;
+    margin-left: 60px;
+}
+#Cadastro {
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: -20px;
+}
